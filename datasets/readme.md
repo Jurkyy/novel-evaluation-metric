@@ -1,0 +1,1 @@
+To get the datasets run the setup.sh file found in the root folder

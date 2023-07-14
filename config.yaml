@@ -1,0 +1,50 @@
+---
+configurations:
+    -   dataset: "AES_HD"
+        model: "AES_HD_CNN"
+        loss_function:
+            - "categorical_crossentropy"
+#            - "cross_entropy_ratio"
+#            - "log_likelihood_ratio"
+        metrics:
+            - "categorical_crossentropy"
+        nr_epochs:
+            - 1
+        batch_sizes:
+            - 200
+        learning_rate: 0.001
+        reshape_x_attack: Truerue
+        early_stopping: False
+        early_stopping_patience: 20
+    -   dataset: "DPAv4"
+        model: "DPAv4_CNN"
+        loss_function:
+            - "categorical_crossentropy"
+#            - "cross_entropy_ratio"
+#            - "log_likelihood_ratio"
+        metrics:
+            - "categorical_crossentropy"
+        nr_epochs:
+            - 1
+        batch_sizes:
+            - 200
+        learning_rate: 0.001
+        reshape_x_attack: True
+        early_stopping: False
+        early_stopping_patience: 20
+    -   dataset: "ASCAD_100"
+        model: "ASCAD_100_CNN"
+        loss_function:
+            - "categorical_crossentropy"
+#            - "cross_entropy_ratio"
+#            - "log_likelihood_ratio"
+        metrics:
+            - "categorical_crossentropy"
+        nr_epochs:
+            - 1
+        batch_sizes:
+            - 200
+        learning_rate: 0.001
+        reshape_x_attack: True
+        early_stopping: False
+        early_stopping_patience: 20

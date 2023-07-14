@@ -1,0 +1,7 @@
+{
+"ascad_database" : "ATMEGA_AES_v1/ATM_AES_v1_fixed_key/ASCAD_data/ASCAD_databases/ASCAD_hw_fixed.h5",
+"training_model": "ATMEGA_AES_v1/ATM_AES_v1_fixed_key/ASCAD_data/ASCAD_trained_models/",
+"network_type": "mlp",
+"epochs": 10,
+"batch_size": 100
+}

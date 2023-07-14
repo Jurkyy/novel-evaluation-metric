@@ -1,0 +1,9 @@
+matplotlib
+numpy
+tensorflow
+tensorflow-gpu
+h5py
+tqdm
+Keras
+sklearn
+scikit-learn
